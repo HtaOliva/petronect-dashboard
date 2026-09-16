@@ -35,4 +35,5 @@ Nossa equipe dividiu o desenvolvimento em duas frentes para garantir entregas á
 
 ## 🔗 Links Importantes
 * **Protótipo Interativo:** [Acessar MVP no Figma](https://sl1nk.com/uwsi63b)
+
 *Projeto desenvolvido pela Equipe 1: Ágata de Oliveira, Mellyssa Stephanny de Jesus Mendes, Rayane Climaco, Vivian Cristyelly Santos dos Santos*
