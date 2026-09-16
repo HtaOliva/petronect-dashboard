@@ -75,13 +75,18 @@ Nossa equipe dividiu o desenvolvimento em três frentes para garantir entregas �
 Para validar a viabilidade técnica da solução, enviamos eventos `$rageclick` simulados para o PostHog, reproduzindo o comportamento de um fornecedor travado no botão "Validar e Prosseguir".
 
 **Evidência capturada:**
+
+![Atividade no PostHog com eventos de rage click](https://github.com/HtaOliva/petronect-dashboard/blob/main/tela-rageclick.png)
+
+*Figura 1 — Atividade no PostHog exibindo os eventos `$rageclick` capturados do `fornecedor_123`.*
+
+**O que a evidência mostra:**
 - 6 eventos `$rageclick` capturados do mesmo fornecedor (`fornecedor_123`);
 - Propriedade `$el_text: "Validar e Prosseguir"` visível no detalhe do evento;
 - Janela de aproximadamente 3 minutos entre os eventos (padrão de travamento);
 - URL de origem: `https://www.petronect.com.br/irj/portal/anonymous/pt`.
 
-**Implicação:** o PostHog detecta rage clicks nativamente e fornece os dados necessários para o motor de regras disparar o atendimento proativo. A camada de captura é real e validada.
-
+Implicação: o PostHog detecta rage clicks nativamente e fornece os dados necessários para o motor de regras disparar o atendimento proativo. A camada de captura é real e validada.
 ---
 
 ## 🌱 Impacto Esperado
