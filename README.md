@@ -87,6 +87,8 @@ Para validar a viabilidade técnica da solução, enviamos eventos `$rageclick` 
 - URL de origem: `https://www.petronect.com.br/irj/portal/anonymous/pt`.
 
 Implicação: o PostHog detecta rage clicks nativamente e fornece os dados necessários para o motor de regras disparar o atendimento proativo. A camada de captura é real e validada.
+
+
 ---
 
 ## 🌱 Impacto Esperado
