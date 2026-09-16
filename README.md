@@ -81,7 +81,7 @@ Para validar a viabilidade técnica da solução, enviamos eventos `$rageclick` 
 *Figura 1 — Atividade no PostHog exibindo os eventos `$rageclick` capturados do `fornecedor_123`.*
 
 **O que a evidência mostra:**
-- 6 eventos `$rageclick` capturados do mesmo fornecedor (`fornecedor_123`);
+- 5 eventos `$rageclick` capturados do mesmo fornecedor (`fornecedor_123`);
 - Propriedade `$el_text: "Validar e Prosseguir"` visível no detalhe do evento;
 - Janela de aproximadamente 3 minutos entre os eventos (padrão de travamento);
 - URL de origem: `https://www.petronect.com.br/irj/portal/anonymous/pt`.
@@ -122,7 +122,6 @@ Implicação: o PostHog detecta rage clicks nativamente e fornece os dados neces
 
 - **Protótipo Interativo:** [Acessar MVP no Figma](https://sl1nk.com/uwsi63b)
 - **Repositório GitHub:** [Link do repositório](https://github.com/HtaOliva/petronect-dashboard)
-- **Vídeo de Apresentação:** [Link do YouTube não listado]
 - **Documento do Projeto:** [Link do Google Drive](https://drive.google.com/drive/folders/1nVUW6xbnnW3-nLqua9US8xjjSzgBkiaX?usp=sharing)
 
 ---
